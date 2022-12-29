@@ -8,7 +8,7 @@ To update the stack use the command below
 
 To view the status of the stack you can use the below command or use AWS management console
 ```aws cloudformation describe-stacks --stack-name firstcfvpc --profile udacity_user```
-{
+```{
     "Stacks": [
         {
             "StackId": "arn:aws:cloudformation:us-east-1:552774009404:stack/firstcfvpc/71394840-7c2f-11ed-8705-0adbb06ea993",
@@ -27,3 +27,4 @@ To view the status of the stack you can use the below command or use AWS managem
         }
     ]
 }
+```
